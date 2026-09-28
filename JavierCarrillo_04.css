@@ -1,0 +1,45 @@
+/* Estos sonh los estilos de mi página */
+
+h1, h2 {
+    color: white;
+    border: 6px;
+    border-radius: 6px;
+}
+
+h1 {
+    background-color: #008cff;
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgba(0, 68, 255, 85);
+    padding: 5px;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+
+
+img {
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    border: black 1px solid;
+    border-radius: 6px;
+    gap: 5px;
+    padding: 5px;
+}
+
+nav {
+    a {
+    color: white;
+    background-color: #0066ff;
+    }
+    
+}
+
