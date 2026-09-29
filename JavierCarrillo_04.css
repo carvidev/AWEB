@@ -36,6 +36,8 @@ a{
 }
 
 nav {
+    margin-top: 15px;
+
     a {
     color: white;
     background-color: #0066ff;
