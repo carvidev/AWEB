@@ -1,0 +1,28 @@
+/* 
+PORTADA CSS
+Javier Carrillo Pérez
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header>img { width: 50px; }
+main>img { width: 50%; }
+img {border-radius: 15px;}
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}

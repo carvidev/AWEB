@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.lineaNegra {
+    background-color: grey;
+    padding: 40px;
+}
+
+.bolaAzul{background-color: blue;}
+.bolaAmarilla {background-color: yellow;}
+.bolaRoja {background-color: red;}
+
+.bolaAzul, .bolaAmarilla, .bolaRoja {
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.bolas{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.lineaVerde {
+    background-color: greenyellow;
+    padding: 40px;
+}
