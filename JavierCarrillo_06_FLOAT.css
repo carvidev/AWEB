@@ -1,0 +1,55 @@
+/* 
+MENÚS FLOAT
+Javier Carrillo
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menuH {
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuH a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuH a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menuV {
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuV a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuV a:hover {
+ background-color: white;
+    color: black;
+}
+
+img {
+    float: left;
+    width: 74%;
+    border: 5px double;
+}

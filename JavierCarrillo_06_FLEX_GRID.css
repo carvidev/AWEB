@@ -1,0 +1,78 @@
+/*
+MENÚS CON FLEX Y GRID
+Javier Carrillo
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: azure;
+    text-shadow: black 1px 1px 2px;
+}
+
+.menuFlex {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-top: 2px black solid;
+}
+
+.menuFlex a {
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menuFlex a:hover {
+    background-color: rgb(187 187 158);
+    border-bottom: 1px black solid;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-top: 2px black solid;
+}
+
+.menuGrid a {
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menuGrid a:hover {
+    background-color: rgb(187 187 158);
+    border-bottom: 1px black solid;
+}
+
+.menuFlex a:first-child, .menuGrid a:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+.menuFlex a:last-child, .menuGrid a:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+.menuFlex a:nth-child(2), .menuGrid a:nth-child(2) {
+    background-color: aquamarine;
+}
