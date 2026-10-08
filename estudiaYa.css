@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#2f2f2f
+}
+
+span {
+    font-weight: 900;
+    color:cornflowerblue
+}
+
+img {
+    max-width: 60%;
+    border-radius: 50px;
+}
+
+/* Header */
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #9fffdc;
+}
+
+.cabecera a {
+    padding: 10px;
+}
+
+/* Main */
+.principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #c5e2d7;
+    border-radius: 50px;
+    margin: 0 20px;
+    margin-top: 20px;
+}
+
+/* Section */
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+    gap: 10px;
+    text-align: center;
+}
+
+.tarjeta {
+    padding: 50px 20px;
+    background-color: rgb(0, 225, 255);
+    border-radius: 20px;
+}
+
+/* Footer */
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #555;
+}
+
+.pie a {
+    padding: 10px;
+    color: aliceblue;
+}
+
+.pie span {
+    color: aquamarine;
+}
+
+.pie h3 {
+    color: white;
+}
