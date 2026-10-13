@@ -22,7 +22,7 @@ span {
 
 img {
     max-width: 60%;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 /* Header */
@@ -45,7 +45,7 @@ img {
     align-items: center;
     padding: 20px;
     background-color: #c5e2d7;
-    border-radius: 50px;
+    border-radius: 30px;
     margin: 0 20px;
     margin-top: 20px;
 }
