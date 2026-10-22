@@ -1,0 +1,77 @@
+/*
+    Galerá CSS
+    Javier Carrillo Pérez, Octubre 2026
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: darkgoldenrod;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 2px;
+    }
+    a:hover {
+        color: darkgoldenrod;
+        background-color: white;
+        border: 1px solid darkgoldenrod;
+    }
+}
+
+
+main {
+    width: 80%;
+    margin: 25px auto 100px auto;
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.info {
+    display: flex;
+}
+
+.sobre {
+    p {
+        border: 3px solid darkgoldenrod;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: cornsilk;
+    }
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+    img {
+        width: 100%;
+        transition: all ease 0.65s;
+    }
+    img:hover {
+        transform: scale(1.1) rotate(6deg) translate(5px,0px);
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
