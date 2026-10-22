@@ -44,6 +44,10 @@ main {
 
 .info {
     display: flex;
+    
+    article {
+        padding: 5px;
+    }
 }
 
 .sobre {
