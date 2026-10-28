@@ -1,0 +1,104 @@
+/*
+Javier Carrillo Pérez
+28/10/2026 */
+
+* { /* Reseterar estilos por defecto de los navegadores*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+section {
+    margin-top: 20px;
+    min-height: 300px;
+}
+
+/* Cabecera */
+.cabecera {
+    background-color: chartreuse;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    a {
+        background-color: aliceblue;
+        text-decoration: none;
+        color: burlywood;
+        text-transform: uppercase;
+        border: 1px solid brown;
+        padding: 8px;
+        border-radius: 8px;
+        margin: 0 5px;
+    }
+}
+
+/* Presentación */
+.presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+    img {
+        width: 50%;
+    }
+}
+
+/* Experiencias */
+.experiencias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    margin: 0;
+    padding: 20px;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+    li {
+        list-style-type: none;
+        line-height: 40px;
+    }
+}
+
+/* Galeria */
+.galeria {
+    text-align: center;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    img {
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        transform: scale(1);
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(141, 108, 66);
+    color: aliceblue;
+    
+}
