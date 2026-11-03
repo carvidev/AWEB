@@ -1,0 +1,45 @@
+/*
+    CSS Multimedia
+    Carrillo Pérez, Javier, Nov 2026
+*/ 
+
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header, footer {
+    background-color: burlywood;
+    padding: 2rem;
+}
+
+body { font-size: 1.6rem;}
+h1 { font-size: 3.2rem; }
+h3 { font-size: 2rem; }
+
+h1, h3 {
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin: 1rem auto;
+    width: 90%;
+    background-color: antiquewhite;
+}
+
+video, iframe {
+    width: 90%;
+    border-radius: 1rem;
+}
+
+
