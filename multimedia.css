@@ -32,14 +32,41 @@ section {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 2rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
+    padding: 2rem;
     width: 90%;
+    border-radius: 1rem;
     background-color: antiquewhite;
+    box-shadow: 5px 5px 5px rgb(166, 163, 163);
 }
 
 video, iframe {
-    width: 90%;
+    width: 100%;
     border-radius: 1rem;
 }
 
+/* Fuentes de texto */
+@font-face {
+    font-family: "jersey";
+    src: url(./fonts/jersey_m54.ttf);
+}
 
+@font-face {
+    font-family: "arista";
+    src: url(./fonts/arista.ttf);
+}
+
+h1 {
+    font-family: "jersey";
+    text-shadow: 3px 3px 3px rgb(168, 165, 146);
+}
+
+.p1 {
+    font-family: "arista";
+}
+
+.redaction-50-regular {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+}
