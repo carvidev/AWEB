@@ -1,0 +1,66 @@
+/*
+    Javier Carrillo Pérez
+    Lunes, 9 de Noviembre
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.sobre-nosotros {
+    border: 3px solid black;
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%),
+    url(./Imágenes/mueble1.jpg);
+    background-size: 100%, 100rem;
+    padding: 8rem 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sobre-nosotros h2 {
+    grid-column: 2/3;
+    text-align: center;
+    color: white;
+}
+
+header, footer {
+    margin: 2rem 0;
+}
+
+.catalogo div {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.catalogo h2 {
+    margin-top: 2rem;
+}
+
+.catalogo img {
+    width: 0px;
+    flex-grow: 1;
+    height: 300px;
+    object-fit: cover;
+    transform: scale(1);
+}
+
+.catalogo img:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.catalogo img:first-child, img:last-child {
+    
+}
