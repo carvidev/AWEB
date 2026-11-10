@@ -20,7 +20,7 @@ body {
     rgb(255, 216, 143) 0%,
     rgb(250, 243, 179) 50%,
     rgb(230, 255, 88) 100%);
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     cursor: url(./Imágenes/cursor.cur), auto;
 }
