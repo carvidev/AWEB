@@ -1,0 +1,17 @@
+/*
+    Javier Carrillo Pérez
+    Tablas, Noviembre 10
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+html {
+    font-size: 62.5%;
+    margin: 0 auto;
+}
+
