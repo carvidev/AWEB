@@ -15,3 +15,33 @@ html {
     margin: 0 auto;
 }
 
+header {
+    background-color: aqua;
+}
+
+h1 {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-wrap: wrap;
+}
+
+th {
+    background-color: aqua;
+}
