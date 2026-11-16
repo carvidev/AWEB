@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
     <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Formularios</h1>
+        <h1 class="Sniglet">Formularios</h1>
     </header>
 
     <main>
-        <form class="formulario">
+        <fieldset class="formulario">
+            <legend>Datos personales</legend>
+
             <label for="nombre">Tu nombre:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
 
             <label for="email">Tu email:</label>
             <input type="text" id="email" name="email" placeholder="Correro electrónico">
@@ -22,7 +30,7 @@
             <label for="telefono">Tu teléfono</label>
             <input type="number" id="telefono" name="telefono" placeholder="Teléfono" minlength="9">
 
-            <textarea name="mensaje" id="mensaje" rows="10" cols="30">Tu mensaje</textarea>
+            <textarea name="mensaje" id="mensaje" rows="10" cols="30" placeholder="Escribe tu mensaje aquí"></textarea>
 
             <select name="pais" id="pais">
                 <option value="españa" selected>España</option>
@@ -32,8 +40,16 @@
                 <option value="italia">Italia</option>
             </select>
 
-            <input type="submit" value="Enviar">
-        </form>
+            <input type="file" id="fichero" name="fichero">
+            <input type="date" id="fecha" name="fecha">
+            <input type="color" id="color" name="color">
+            <input type="range"  id="rango" name="rango" value="100">
+
+            <div class="botones">
+                <input class="boton" type="reset" value="Limpiar">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </fieldset>
     </main>
 </body>
 </html>
