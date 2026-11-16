@@ -1,0 +1,16 @@
+/*
+    Javier Carrillo
+    14 de Noviembre, 2026
+*/
+
+/* Estilos Globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
