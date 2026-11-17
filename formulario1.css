@@ -38,12 +38,12 @@ h1 {
 }
 
 /* Formularios */
-fieldset {
+fieldset, section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
     margin: 2rem 0;
-    padding: 0 1rem;
+    padding: 1rem;
     background-color: white;
     border: none;
     box-shadow: 1px 1px 1px 1px rgb(211, 211, 211);
@@ -70,6 +70,7 @@ p {
         font-weight: 600;
         margin-bottom: 0.4rem;
         color: rgb(4, 50, 99);
+        padding: 0;
     }
 
     input, select {
@@ -78,4 +79,64 @@ p {
         border: 1px solid rgb(211, 211, 211);
         border-radius: 0.6rem;
     }
+
+    textarea {
+        padding: 1rem;
+    }
+
+    small {
+        margin-top: 1rem;
+        opacity: 55%;
+    }
+}
+
+label {
+    padding: 2rem;
+}
+
+.subir {
+    border: 1px dashed #afcfff;
+}
+
+.color {
+    width: 7rem;
+    height: 5rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: content-box;
+    margin: 0.4rem;
+}
+
+.boton {
+    padding: 1rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding: 1rem;
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+
+    label {
+        font-weight: 600;
+        padding: 0;
+    }
+}
+
+.contenedor {
+    padding: 1rem;
+    font-size: 1.2rem;
 }

@@ -83,32 +83,32 @@
 
         <p>Curso que te interesa (radio: una sola opción):</p>
         <label>
-          <input type="radio" name="curso" value="html" checked>
+          <input class="clic" type="radio" name="curso" value="html" checked>
           HTML y CSS
         </label>
         <label>
-          <input type="radio" name="curso" value="javascript">
+          <input class="clic" type="radio" name="curso" value="javascript">
           JavaScript
         </label>
         <label>
-          <input type="radio" name="curso" value="python">
+          <input class="clic" type="radio" name="curso" value="python">
           Python
         </label>
         <p>Lenguajes que conoces (checkbox: varias opciones):</p>
         <label>
-          <input type="checkbox" name="lenguajes[]" value="html">
+          <input class="clic" type="checkbox" name="lenguajes[]" value="html">
           HTML
         </label>
         <label>
-          <input type="checkbox" name="lenguajes[]" value="css">
+          <input class="clic" type="checkbox" name="lenguajes[]" value="css">
           CSS
         </label>
         <label>
-          <input type="checkbox" name="lenguajes[]" value="javascript">
+          <input class="clic" type="checkbox" name="lenguajes[]" value="javascript">
           JavaScript
         </label>
         <label>
-          <input type="checkbox" name="lenguajes[]" value="python">
+          <input class="clic" type="checkbox" name="lenguajes[]" value="python">
           Python
         </label>
         <p>
@@ -180,17 +180,17 @@
         <legend>5. Archivos, colores y valores</legend>
         <p>
           <label for="foto">Seleccionar una imagen:</label>
-          <input type="file" id="foto" name="foto"
+          <input class="subir" type="file" id="foto" name="foto"
                  accept="image/png, image/jpeg, image/webp">
         </p>
         <p>
           <label for="documentos">Seleccionar varios documentos:</label>
-          <input type="file" id="documentos" name="documentos[]"
+          <input class="subir" type="file" id="documentos" name="documentos[]"
                  accept=".pdf,.doc,.docx,.odt" multiple>
         </p>
         <p>
           <label for="color">Color favorito:</label>
-          <input type="color" id="color" name="color" value="#3366ff">
+          <input class="color" type="color" id="color" name="color" value="#3366ff">
         </p>
         <p>
           <label for="volumen">Nivel de volumen:</label>
@@ -245,16 +245,16 @@
         </p>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="botones">
         <legend>8. Botones del formulario</legend>
         <p>
-          <input type="submit" value="Enviar formulario">
-          <input type="reset" value="Restablecer campos">
+          <input class="boton" type="submit" value="Enviar formulario">
+          <input class="boton" type="reset" value="Restablecer campos">
         </p>
         <p>
-          <button type="submit">Enviar con button</button>
-          <button type="reset">Limpiar con button</button>
-          <button type="button" onclick="alert('Has pulsado un botón normal.')">
+          <button class="boton" type="submit">Enviar con button</button>
+          <button class="boton" type="reset">Limpiar con button</button>
+          <button class="boton" type="button" onclick="alert('Has pulsado un botón normal.')">
             Botón normal
           </button>
         </p>
@@ -265,12 +265,16 @@
     <section>
       <h2>9. Elementos adicionales relacionados con formularios</h2>
       <h3>progress</h3>
-      <label for="progreso">Progreso de una tarea:</label>
-      <progress id="progreso" value="65" max="100">65%</progress>
+      <div class="contenedor">
+        <label for="progreso">Progreso de una tarea:</label>
+        <progress id="progreso" value="65" max="100">65%</progress>
+      </div>
       <h3>meter</h3>
-      <label for="medidor">Nivel de batería:</label>
-      <meter id="medidor" min="0" max="100" low="20"
+      <div class="contenedor">
+        <label for="medidor">Nivel de batería:</label>
+        <meter id="medidor" min="0" max="100" low="20"
              high="80" optimum="100" value="75">75%</meter>
+      </div>
     </section>
     <hr>
   </main>
