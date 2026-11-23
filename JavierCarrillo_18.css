@@ -1,0 +1,50 @@
+/*
+    One Page Scroll
+    Javier Carrillo, 23 Nov.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   width: 70%;
+   margin: 1rem auto;
+   font-size: 1.5em;
+}
+
+nav {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+    text-decoration: none;
+    background-color: azure;
+    color: black;
+    text-transform: uppercase;
+    gap: 1rem;
+    padding: 1rem;
+    }
+}
+
+section {
+    min-height: 200px;
+    background-color: aquamarine;
+    margin: 1rem auto;
+    padding: 1rem;
+
+    h1 {
+        background-color: aqua;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}
