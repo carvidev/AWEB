@@ -1,0 +1,54 @@
+/*
+    Pseudo clases
+    Javier carrillo 23 Nov.
+*/
+
+* {
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+*::selection {
+    background: red;
+}
+
+#titulo2::before, #titulo2::after {
+    content: "''";
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#titulo2 {
+    color: white;
+    text-transform: lowercase;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(120, 180, 92), white);
+}
+
+article {
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 3px solid brown;
+}
+
+p::first-letter {
+    font-size: 3em;
+    color: brown;
+}
+
+p::first-line {
+    color: green;
+}
