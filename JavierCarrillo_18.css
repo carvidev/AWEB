@@ -14,7 +14,7 @@ html{
 }
 
 body{
-   width: 70%;
+   width: 80%;
    margin: 1rem auto;
    font-size: 1.5em;
 }
@@ -23,6 +23,7 @@ nav {
     background-color: aliceblue;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     a {
     text-decoration: none;
@@ -32,6 +33,13 @@ nav {
     gap: 1rem;
     padding: 1rem;
     }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-color: aqua;
 }
 
 section {
@@ -57,7 +65,7 @@ section {
 
 section:hover {
    box-shadow: 0 5px 20px gray;
-   opacity: 0.6;
+   opacity: 0.7;
 }
 
 nav {
